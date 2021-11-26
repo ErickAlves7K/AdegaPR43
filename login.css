@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+}
+body {
+    background-color: #F0E3CA;
+}
+div {
+    display: block;
+}
+.middle-box {
+    position: absolute;
+    padding: 20px;
+    font-size: 14px;
+    width: 30%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1.5px solid #FF8303;
+    background-color: #F0E3CA;
+}
+.box-border {
+    border-radius: 5px;
+}
+form {
+    margin-top: 20%;
+    margin-left: 15%;
+}
+label {
+    font-size: 36px;
+}
+input {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    font-size: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-rendering: auto;
+}
+.signup-btn {
+    position: absolute;
+    padding: 5px 64px;
+    background-color: #FF8303;
+    cursor: pointer;
+    top: 60%;
+    left: 35%;
+}
+.signup-btn:active {
+    background-color: #A35709;
+}
+.register-button {
+    position: absolute;
+    font-size: 48px; 
+    color: #000000;
+    position: absolute;
+    left: 43%;
+    top: 75%;
+    line-height: 56px;
+}
+.register-text {
+    color: black;
+    background-color: transparent;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: none;
+}
+.register-text:active {
+    color: #A35709;   
+}
