@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+}
+body {
+    background-color: #F0E3CA;
+}
+div {
+    display: block;
+}
+.middle-box {
+    position: absolute;
+    padding: 30px;
+    font-size: 14px;
+    width: 30%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1.5px solid #FF8303;
+    background-color: #F0E3CA;
+}
+.box-border {
+    border-radius: 5px;
+}
+form {
+    display: block;
+    margin-top: 2em;
+    margin-left: 6em;
+}
+label {
+    font-size: 36px;
+}
+input {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    font-size: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-rendering: auto;
+}
+.register-btn {
+    position: absolute;
+    padding: 5px 48px;
+    background-color: #FF8303;
+    cursor: pointer;
+    top: 70%;
+    left: 6.5em;
+}
+.register-btn:active {
+    background-color: #A35709;
+}
